@@ -1,5 +1,5 @@
 {
-  "name": "roundcube/rtf-html-php",
+  "name": "lucasbramos/rtf-html-php",
   "description": "RTF to HTML converter in PHP",
   "keywords": ["rtf", "converter"],
   "type": "library",
@@ -12,6 +12,10 @@
     {
       "name": "Aleksander Machniak",
       "email": "alec@alec.pl"
+    },
+    {
+      "name": "Lucas Ramos",
+      "email": "contato@lucasramos.com.br"
     }
   ],
   "scripts": {
