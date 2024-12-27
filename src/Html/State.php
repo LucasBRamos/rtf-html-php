@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 namespace RtfHtmlPhp\Html;
 
@@ -113,7 +113,7 @@ class State
             $style[] = "display:none";
         }
 
-        if (isset($this->font)) {
+        if (isset($this->font) && !empty(self::$fonttbl)) {
             $font = self::$fonttbl[$this->font];
             $style[] = $font->toStyle();
         }
